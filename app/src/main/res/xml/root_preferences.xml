@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Обновление информации о пробеге">
+
+        <EditTextPreference
+            app:key="interval"
+            app:title="Интервал напоминаний (в днях), при 0 выключено"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="mileage"
+            app:title="Текущий пробег автомобиля"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

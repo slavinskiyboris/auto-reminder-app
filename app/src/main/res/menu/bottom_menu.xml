@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bmCategories"
+        android:icon="@drawable/ic_categories"
+        android:title="Категории"  />
+    <item
+        android:id="@+id/bmCalendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="События"  />
+    <item
+        android:id="@+id/bmSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Настройки"  />
+</menu>
